@@ -22,12 +22,13 @@ var uppercase = "HELLO!"
 
 uppercase.toUpperCase() === uppercase // true
 
-var lowercase = 'hello!'
+var lowercase = 'HELLO!'
 
 lowercase.toLowerCase() === lowercase // true
 
 var mixedCase = 'Hi there!'
 
 mixedCase.toLowerCase() === mixedCase // false
+var mixedCase ='Hi There!'
 
 mixedCase.toUpperCase() === mixedCase // false
